@@ -1,0 +1,36 @@
+.navbar-container{
+    height: 7vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40vw;
+    height: 7vh;
+}
+
+.navbar-left img{
+    height: 7vh;
+}
+
+.navbar-middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: antiquewhite;
+    width: 50vw;
+    height: 7vh;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50vw;
+    height: 7vh;
+}
