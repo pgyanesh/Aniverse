@@ -1,5 +1,6 @@
 .navbar-container{
-    height: 7vh;
+    height: 9vh;
+    width: 100vw;
     background-color: black;
     display: flex;
     align-items: center;
@@ -10,28 +11,61 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    width: 40vw;
-    height: 7vh;
+    width: 32vw;
+    height: 9vh;
+    gap: 2vw;
+}
+.navbar-search{
+    height: 5vh;
+    width: 20vw;
+    padding-left:1.5vw;
 }
 
 .navbar-left img{
-    height: 7vh;
+    height: 9vh;
 }
 
 .navbar-middle{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     color: antiquewhite;
-    width: 50vw;
+    width: 25vw;
     height: 7vh;
+    gap: 3vw;
+    margin-left: 4vw;
 }
 .navbar-right{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: flex-end;
-    width: 50vw;
+    justify-content: space-around;
+    width: 15vw;
     height: 7vh;
+    margin-left: 4vw;
+}
+.logo1 img{
+    width: 5vw;
+    height: 4vh;
+   
+}
+.logo2 img{
+    width: 2.5vw;
+    height: 5vh;
+    border-radius: 50%;
+   
+}
+.navbar-loginbtn{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 7vh;
+    align-items: center;
+}
+.navbar-loginbtn button{
+    padding: 4px 8px;
+    background-color:rgb(128, 22, 22) ;
+    border-radius: 10%;
+    color: aliceblue;
 }
