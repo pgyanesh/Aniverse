@@ -1,0 +1,12 @@
+.hero-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+}
+
+.hero-container img{
+    margin-top: 3vh ;
+    height: 90vh;
+
+}
