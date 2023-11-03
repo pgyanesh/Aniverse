@@ -3,6 +3,7 @@ import './Navbar.css'
 import aniverse from '../../Assets/aniverse.png'
 import aniwatchlogo from '../../Assets/aniwatchlogo.png'
 import crunchyroll from '../../Assets/crunchyroll.png'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='navbar-container'>
@@ -11,9 +12,9 @@ const Navbar = () => {
         <input className='navbar-search' type='text' placeholder='Search anime...'/>
       </div>
       <div className="navbar-middle">
-        <a className='navbarMiddle-links' href='/'>Movies</a>
-        <a className='navbarMiddle-links' href='/'>Tv Series</a>
-        <a className='navbarMiddle-links' href='/'>Manga</a>
+        <Link className='navbarMiddle-links' to='/'>Movies</Link>
+        <Link className='navbarMiddle-links' to='/'>Tv Series</Link>
+        <Link className='navbarMiddle-links' to='/'>Manga</Link>
       </div>
       <div className="navbar-right">
         <a className='logo1' href='https://aniwatch.to/home' target="_blank" rel="noreferrer"><img src={aniwatchlogo} alt="" /></a>
@@ -21,7 +22,7 @@ const Navbar = () => {
         
        </div>
        <div className="navbar-loginbtn">
-        <button>Login</button>
+        <Link to="/login"><button>Login</button></Link>
       </div>
     </div>
   )
