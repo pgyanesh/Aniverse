@@ -10,7 +10,7 @@ const LoginSignup = () => {
   return (
     <div className='login-container'>
       <div className="login-heading">
-        <h1>AnyGames</h1>
+        <h1>Aniverse</h1>
       </div>
       <div className="login-box">
         <div id="login-title"><h2>Login</h2></div>

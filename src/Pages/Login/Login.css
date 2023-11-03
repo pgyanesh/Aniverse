@@ -5,6 +5,7 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
+    background:linear-gradient(white 10% ,black  );
 }
 .login-box{
     height: 50vh;
@@ -35,7 +36,7 @@
 #login-button{
     height: 7vh;
     width: 28vw;
-    background-color: rgb(32, 32, 62);
+    background-color: rgb(19, 19, 21);
     color: aliceblue;
 }
 .login-showPassword{
@@ -50,7 +51,7 @@
    
 }
 .login-link a{
-    color: rgb(108, 101, 101);
+    color: rgb(239, 229, 229);
    
    font-size: 0.8rem;
 }

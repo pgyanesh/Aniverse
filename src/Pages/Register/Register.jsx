@@ -11,7 +11,7 @@ const Register = () => {
     <div>
       <div className='register-container'>
       <div className="register-heading">
-        <h1>AnyGames</h1>
+        <h1>Aniverse</h1>
       </div>
       <div className="register-box">
         <div id="register-title"><h2>Register</h2></div>
@@ -25,7 +25,7 @@ const Register = () => {
         <div className="register-link">
         <div className="linkCon">
             <p>Already have an account?</p>
-            <Link to='/login'>Login</Link>
+            <Link  to='/login'>Login</Link>
         </div>
         </div>
       </div>

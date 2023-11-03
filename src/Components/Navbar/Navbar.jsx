@@ -12,9 +12,9 @@ const Navbar = () => {
         <input className='navbar-search' type='text' placeholder='Search anime...'/>
       </div>
       <div className="navbar-middle">
-        <Link className='navbarMiddle-links' to='/'>Movies</Link>
-        <Link className='navbarMiddle-links' to='/'>Tv Series</Link>
-        <Link className='navbarMiddle-links' to='/'>Manga</Link>
+        <Link className='navbarMiddle-links' to='/movies'>Movies</Link>
+        <Link className='navbarMiddle-links' to='/series'>Series</Link>
+        <Link className='navbarMiddle-links' to='/manga'>Manga</Link>
       </div>
       <div className="navbar-right">
         <a className='logo1' href='https://aniwatch.to/home' target="_blank" rel="noreferrer"><img src={aniwatchlogo} alt="" /></a>

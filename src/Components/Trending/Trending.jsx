@@ -17,7 +17,7 @@ const Trending = () => {
         <div className="trending-box">
             <div className="content-info">
                 
-                <h3>1. One piece</h3>
+                <h3 className="content-title">1. One piece</h3>
            
             </div>
             <div className="content-img">
@@ -28,7 +28,7 @@ const Trending = () => {
             <div className="content-info">
                 
            
-                <h3>2. Jujutsu kasien</h3>
+                <h3 className="content-title">2. Jujutsu kasien</h3>
             </div>
             <div className="content-img">
               <img src={jjk} alt="" />
@@ -38,7 +38,7 @@ const Trending = () => {
             <div className="content-info">
                
             
-                <h3>3. Demon slayer</h3>
+                <h3 className="content-title">3. Demon slayer</h3>
             </div>
             <div className="content-img">
               <img src={demonslayer} alt="" />
@@ -48,7 +48,7 @@ const Trending = () => {
             <div className="content-info">
               
             
-                <h3>4. Tokyo Revengers</h3>
+                <h3 className="content-title">4. Tokyo Revengers</h3>
             </div>
             <div className="content-img">
               <img src={tokyorevengers} alt="" />
@@ -58,7 +58,7 @@ const Trending = () => {
             <div className="content-info">
               
            
-              <h3>5. SpyxFamily</h3>
+              <h3 className="content-title">5. SpyxFamily</h3>
             </div>
             <div className="content-img">
               <img src={spyxfamily} alt="" />

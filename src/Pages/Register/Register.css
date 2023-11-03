@@ -5,6 +5,7 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(white 10% ,black  );;
 }
 .register-box{
     height: 70vh;
@@ -40,7 +41,7 @@
 #register-button{
     height: 7vh;
     width: 28vw;
-    background-color: rgb(32, 32, 62);
+    background-color: rgb(15, 15, 16);
     color: aliceblue;
 }
 .register-showPassword{
@@ -55,7 +56,7 @@
    
 }
 .register-link a{
-    color: rgb(108, 101, 101);
+    color: rgb(249, 248, 248);
    
    font-size: 0.8rem;
 }
@@ -63,4 +64,5 @@
     display: flex;
     width: 21vw;
     justify-content: space-around;
+    color: aliceblue;
 }
