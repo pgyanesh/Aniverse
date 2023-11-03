@@ -23,6 +23,7 @@
     gap: 2vw;
     margin-top: 5vh;
     flex-direction: row;
+
 }
 
 
@@ -36,26 +37,12 @@
     justify-content: center;
     margin-bottom: 1vh;
 }
-.content1-img img{
+.content-img img{
     height: 47vh;
     width: 15vw;
+    cursor: pointer;
 }
-.content2-img img{
-    height: 47vh;
-    width: 15vw;
-}
-.content3-img img{
-    height: 47vh;
-    width: 15vw;
-}
-.content4-img img{
-    height: 47vh;
-    width: 15vw;
-}
-.content5-img img{
-    height: 47vh;
-    width: 15vw;
-}
+
 
 .content-info h3{
     font-size: 1rem;
