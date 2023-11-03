@@ -11,9 +11,9 @@ const Navbar = () => {
         <input className='navbar-search' type='text' placeholder='Search anime...'/>
       </div>
       <div className="navbar-middle">
-        <p>Movies</p>
-        <p>Tv Series</p>
-        <p>Manga</p>
+        <a className='navbarMiddle-links' href='/'>Movies</a>
+        <a className='navbarMiddle-links' href='/'>Tv Series</a>
+        <a className='navbarMiddle-links' href='/'>Manga</a>
       </div>
       <div className="navbar-right">
         <a className='logo1' href='https://aniwatch.to/home' target="_blank" rel="noreferrer"><img src={aniwatchlogo} alt="" /></a>

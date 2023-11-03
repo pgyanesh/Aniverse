@@ -14,51 +14,51 @@ const Trending = () => {
         <h2>Trending</h2>
       </div>
       <div className="trending-content">
-        <div className="trending-content1">
+        <div className="trending-box">
             <div className="content-info">
-                <h3 >1</h3>
-                <h3 className='content-head'>One piece</h3>
+                
+                <h3>1. One piece</h3>
            
             </div>
             <div className="content1-img">
               <img src={onepiece} alt="" />
             </div>
         </div>
-        <div className="trending-content2">
+        <div className="trending-box">
             <div className="content-info">
-                <h3>2</h3>
+                
            
-                <h3>Jujutsu kasien</h3>
+                <h3>2. Jujutsu kasien</h3>
             </div>
             <div className="content2-img">
               <img src={jjk} alt="" />
             </div>
         </div>
-        <div className="trending-content3">
+        <div className="trending-box">
             <div className="content-info">
-                <h3>3.</h3>
+               
             
-                <h3>Demon slayer</h3>
+                <h3>3. Demon slayer</h3>
             </div>
             <div className="content3-img">
               <img src={demonslayer} alt="" />
             </div>
         </div>
-        <div className="trending-content4">
+        <div className="trending-box">
             <div className="content-info">
-              <h3>3.</h3>
+              
             
-                <h3>Tokyo Revengers</h3>
+                <h3>4. Tokyo Revengers</h3>
             </div>
             <div className="content4-img">
               <img src={tokyorevengers} alt="" />
             </div>
         </div>
-        <div className="trending-content5">
+        <div className="trending-box">
             <div className="content-info">
-              <h3>5.</h3>
+              
            
-              <h3>SpyxFamily</h3>
+              <h3>5. SpyxFamily</h3>
             </div>
             <div className="content5-img">
               <img src={spyxfamily} alt="" />

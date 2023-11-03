@@ -3,6 +3,10 @@
     flex-direction: column;
     height: 80vh;
     overflow: hidden;
+    color: antiquewhite;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
 }
 .trending-title{
     display: flex;
@@ -11,23 +15,49 @@
     justify-content: center;
 }
 .trending-content{
-    height: 60vh;
+    height: 65vh;
+    width: 82vw;
     display: flex;
-    align-content: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     gap: 2vw;
-    
-
+    margin-top: 5vh;
+    flex-direction: row;
 }
 
+
+
+.trending-box{ 
+    height: 60vh;
+    width: 17vw;
+}
 .content-info{
     display: flex;
-   
-
+    justify-content: center;
+    margin-bottom: 1vh;
 }
-.content-head{
-   display: flex;
-   
+.content1-img img{
+    height: 47vh;
+    width: 15vw;
+}
+.content2-img img{
+    height: 47vh;
+    width: 15vw;
+}
+.content3-img img{
+    height: 47vh;
+    width: 15vw;
+}
+.content4-img img{
+    height: 47vh;
+    width: 15vw;
+}
+.content5-img img{
+    height: 47vh;
+    width: 15vw;
 }
 
+.content-info h3{
+    font-size: 1rem;
+    font-weight: 200;
+}
