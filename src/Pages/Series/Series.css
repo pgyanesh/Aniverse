@@ -1,4 +1,26 @@
+.series-container{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 13vh;
+    background-color: #100e0e;
+    
+}
+.series-innerContainer{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+
+    
+}
+
 .series-content{
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3vw;
+}
+.series-head{
+    color: rgb(138, 9, 9);
 }

@@ -1,0 +1,36 @@
+.seriesItem-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.seriesItem-img{
+    width: 17vw;
+    height: 43vh;
+    
+}
+.seriesItem-title{
+    font-size: 0.8rem;
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 800;
+    
+}
+.seriesItem-title:hover{
+    color: rgb(188, 36, 36);
+}
+
+.seriesItem-rating{
+    font-size: 0.8em;
+    color: rgb(142, 135, 135);
+}
+.seriesItem-desc{
+    color: gray;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 12vw;
+}
