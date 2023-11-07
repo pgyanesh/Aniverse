@@ -14,7 +14,7 @@ const LoginSignup = () => {
       </div>
       <div className="login-box">
         <div id="login-title"><h2>Login</h2></div>
-        <input id='login-email' type='email' placeholder='Email'/>
+        <input id='login-email' type='email' pattern='[a-z0-9]+/@[a-z]+/.[com]' placeholder='Email'/>
         <input id='login-password' type={showPassword?"text":"password"} onChange={handleTogglePassword} placeholder='Password' />
         <div className="login-showPassword">
         <input id='login-check' onChange={handleTogglePassword} type='checkbox'/><p>Show password</p>

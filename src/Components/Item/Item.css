@@ -26,9 +26,13 @@
 
 }
 
-.item-link img{
-    width: 1.5vw;
-    height: 3vh;
-    border-radius: 50%;
-    padding: 0px 0.5vw;
+.item-link button{
+    width: 10svw;
+    height: 5vh;
+    background-color: rgb(121, 14, 14);
+    padding: 1vh 1vw;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: antiquewhite;
+    border-radius: 5%;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Item.css'
-import aniwatchlogo from '../../Assets/aniwatchlogo.png'
-import crunchyroll from '../../Assets/crunchyroll.png'
+// import aniwatchlogo from '../../Assets/aniwatchlogo.png'
+// import crunchyroll from '../../Assets/crunchyroll.png'
 const Item = (props) => {
   return (
     <div className='item-container'>
@@ -13,8 +13,8 @@ const Item = (props) => {
             <p className='item-para'>{props.rating}</p>
             {/* <p className='item-desc'>{props.description}</p> */}
             <div className="item-links">
-              <a className='item-link' href={props.link1} target="_blank" rel="noreferrer" ><img  src={aniwatchlogo} alt='error'/></a>
-              <a className='item-link' href={props.link2} target="_blank" rel="noreferrer" ><img src={crunchyroll} alt='error'/></a>
+              <a className='item-link' href={props.link1} target="_blank" rel="noreferrer" ><button>Watch now!</button></a>
+              
             </div>
         </div>
       

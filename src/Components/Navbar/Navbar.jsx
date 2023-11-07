@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <div className="navbar-left">
-        <img src={aniverse} alt="navbar" />
-        <input className='navbar-search' type='text' placeholder='Search anime...'/>
+        <Link to="/"><img src={aniverse} alt="navbar" /></Link>
+        <input className='navbar-search' type='search' placeholder='Search anime...'/>
       </div>
       <div className="navbar-middle">
         <Link className='navbarMiddle-links' to='/movies'>Movies</Link>
