@@ -1,0 +1,36 @@
+.movieItem-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.movieItem-img{
+    width: 15vw;
+    height: 46vh;
+    
+}
+.movieItem-title{
+    font-size: 0.8rem;
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 800;
+    
+}
+.movieItem-title:hover{
+    color: rgb(188, 36, 36);
+}
+
+.movieItem-rating{
+    font-size: 0.7em;
+    color: rgb(142, 135, 135);
+}
+.movieItem-desc{
+    color: gray;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 12vw;
+}

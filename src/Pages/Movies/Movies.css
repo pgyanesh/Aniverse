@@ -1,0 +1,26 @@
+.movies-container{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 13vh;
+    background-color: #100e0e;
+    
+}
+.movies-innerContainer{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+
+    
+}
+
+.movies-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3vw;
+}
+.movies-head{
+    color: rgb(138, 9, 9);
+}
