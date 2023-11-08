@@ -2,7 +2,8 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 13vh;
-    background-color: #100e0e;
+    /* background-color: #100e0e; */
+    background: linear-gradient(270deg,transparent 0,rgb(36,36,40) 30%,rgb(36,36,40) 70%,transparent);;
     
 }
 .movies-innerContainer{

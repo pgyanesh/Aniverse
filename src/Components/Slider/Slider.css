@@ -1,0 +1,23 @@
+.sliderImg-space{
+    width: 92vw;
+    position: relative;
+    margin-top: 4vh;
+    display: flex;
+}
+
+    .button-space {
+        display: flex;
+        flex-direction: column;
+        width: 4vh;
+        flex-wrap: wrap;
+        z-index: 1;    
+    }
+
+
+.sliding-btn{
+   
+}
+.sliding-btn:hover{
+  
+
+}

@@ -1,7 +1,8 @@
 import React from 'react'
 import './Navbar.css'
-import aniverse from '../../Assets/aniverse.png'
 import aniwatchlogo from '../../Assets/aniwatchlogo.png'
+// import logo from '../../Assets/logo.png'
+import aniverse from '../../Assets/aniverse.png'
 import crunchyroll from '../../Assets/crunchyroll.png'
 import { Link } from 'react-router-dom'
 const Navbar = () => {

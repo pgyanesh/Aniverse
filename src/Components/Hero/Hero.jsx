@@ -12,7 +12,7 @@ const Hero = () => {
   
  
   return (
-    <div className='hero-container'>
+    <div className='hero-container filter'>
       <Slider  imageURLs={IMAGES}/>
     </div>
   )

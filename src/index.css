@@ -3,4 +3,7 @@
   margin: 0px;
   font-family: 'Gabarito', sans-serif;
   font-family: 'Poppins', sans-serif;
+}  
+*, ::after, ::before {
+  box-sizing: border-box;
 }

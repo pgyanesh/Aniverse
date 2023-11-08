@@ -1,10 +1,14 @@
 .navbar-container{
     height: 9vh;
     width: 100vw;
-    background-color: black;
+    background-color:black;
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 1;
+   
+    
+    
 }
 .navbar-left{
     display: flex;
@@ -23,6 +27,7 @@
 
 .navbar-left img{
     height: 9vh;
+    background-color: transparent;
 }
 
 .navbar-middle{
@@ -48,7 +53,7 @@
 .logo1 img{
     width: 2.5vw;
     height: 5vh;
-   
+    border-radius: 30%;
 }
 .logo2 img{
     width: 2.5vw;
@@ -76,6 +81,9 @@
     color: white;
 }
 
+.navbarMiddle-links:hover{
+    color: brown;
+}
 @media (max-width:600px){
     .navbar-container{
         width:100%;

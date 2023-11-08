@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-
+import { SkipBackIcon, SkipForwardIcon } from 'lucide-react';
+import React, { useState } from 'react';
+import './Slider.css'
 const Slider = (props) => {
     const[imageIndex, setImageIndex] = useState(0)
     const handlePrevButton=()=>{
@@ -15,10 +16,13 @@ const Slider = (props) => {
         
 
   return (
-    <div>
+    <div className='sliderImg-space'>
       <img src={props.imageURLs[imageIndex]} alt="error" />
-      <button onClick={handlePrevButton}>left</button>
-      <button onClick={handleNextButton}>right</button>
+      <div className="button-space">
+      <button className='sliding-btn' onClick={handleNextButton}><SkipForwardIcon/></button>
+      <button className='sliding-btn' onClick={handlePrevButton}><SkipBackIcon/></button>
+     
+      </div>
     </div>
   )
 }

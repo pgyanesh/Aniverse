@@ -3,10 +3,14 @@
     justify-content: center;
     flex-direction: row;
     background-color: black;
+  
 }
 
 .hero-container img{
     margin-top: 3vh ;
-    height: 95vh;
+    height: 90vh;
+    width: 100%;
+    
+    
 
 }
