@@ -20,7 +20,10 @@
     justify-content: flex-start;
     align-items: center;
     gap: 3vw;
+    padding: 1vh 0;
+    font-weight: 500;
 }
 .series-head{
-    color: rgb(138, 9, 9);
+    color: rgb(211, 206, 206);
+    padding: 1vh 0;
 }

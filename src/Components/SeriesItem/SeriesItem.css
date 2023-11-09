@@ -17,11 +17,12 @@
     color: aliceblue;
     cursor: pointer;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 500;
+    padding-top: 1vh;
     
 }
 .seriesItem-title:hover{
-    color: rgb(188, 36, 36);
+    color:rgb(211, 100, 4);
 }
 
 .seriesItem-rating{

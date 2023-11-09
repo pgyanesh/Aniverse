@@ -10,7 +10,7 @@ const Movies = () => {
     <div className='movies-container'>
       <div className="movies-innerContainer">
       <div className="movies-head">
-        <h3>TV movies</h3>
+        <h3>Movies</h3>
       </div>
       <div className="movies-content">
         {allMovies.map((item)=>{

@@ -2,12 +2,12 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 13vh;
-    /* background-color: #100e0e; */
-    background: linear-gradient(270deg,transparent 0,rgb(36,36,40) 30%,rgb(36,36,40) 70%,transparent);;
+    background-color: #100e0e;
+   
     
 }
 .movies-innerContainer{
-    width: 80vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     padding-left: 3vw;
@@ -21,7 +21,9 @@
     justify-content: flex-start;
     align-items: center;
     gap: 3vw;
+    padding: 1vh 0;
 }
 .movies-head{
-    color: rgb(138, 9, 9);
+    color: rgb(211, 206, 206);
+    
 }

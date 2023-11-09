@@ -2,14 +2,15 @@ import React from 'react'
 import './Navbar.css'
 import aniwatchlogo from '../../Assets/aniwatchlogo.png'
 // import logo from '../../Assets/logo.png'
-import aniverse from '../../Assets/aniverse.png'
+// import aniverse from '../../Assets/aniverse.png'
 import crunchyroll from '../../Assets/crunchyroll.png'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='navbar-container'>
       <div className="navbar-left">
-        <Link to="/"><img src={aniverse} alt="navbar" /></Link>
+        {/* <Link to="/"><img src={aniverse} alt="navbar" /></Link> */}
+       <Link className='navbar-logo' to='/'>Aniwatch</Link>
         <input className='navbar-search' type='search' placeholder='Search anime...'/>
       </div>
       <div className="navbar-middle">

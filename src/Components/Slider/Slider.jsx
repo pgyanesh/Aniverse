@@ -17,7 +17,7 @@ const Slider = (props) => {
 
   return (
     <div className='sliderImg-space'>
-      <img src={props.imageURLs[imageIndex]} alt="error" />
+      <img className='sliderImg sliderFilter' src={props.imageURLs[imageIndex]} alt="error" />
       <div className="button-space">
       <button className='sliding-btn' onClick={handleNextButton}><ChevronRight/></button>
       <button className='sliding-btn' onClick={handlePrevButton}><ChevronLeft/></button>

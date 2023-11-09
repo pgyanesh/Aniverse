@@ -9,7 +9,7 @@
     height: 40vh;
 }
 .item-para{
-    color: grey;
+    color: rgb(89, 84, 84);
     font-size: 0.8em;
 }
 /* .item-desc{
@@ -30,7 +30,7 @@
     width: 10svw;
     height: 5vh;
     
-    background-color: rgb(121, 14, 14);
+    background: linear-gradient(270deg,transparent 0,rgb(36,36,40) 30%,rgb(36,36,40) 70%,transparent);;
     padding: 1vh 1vw;
     font-weight: 400;
     font-size: 0.8em;
@@ -38,7 +38,8 @@
     border-radius: 5%;
 }
 .item-link button:hover{
-    border: 2px solid  rgb(85, 54, 54);
+    /* border: 2px solid  black; */
+    color:  rgb(211, 100, 4);
     cursor: pointer;
     transition: 100ms ease-in-out;
 }
