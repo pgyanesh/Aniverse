@@ -8,16 +8,40 @@
     .button-space {
         display: flex;
         flex-direction: column;
-        width: 4vh;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 4vw;
+        height: 16vh;
         flex-wrap: wrap;
         z-index: 1;    
+        margin:0 13px;
     }
 
 
 .sliding-btn{
+   width: 4vw;
+   height: 6vh;
+   border-radius: 20%;
+   background-color: black;
+   margin: 2px 0;
+   
    
 }
-.sliding-btn:hover{
-  
 
+.sliding-btn:hover{
+    border: 2px solid rgb(143, 8, 8);
+    transition: 200ms ease-in-out;
+}
+.sliding-btn > *{
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    width: 3vw;
+    height: 5vh;
+
+}
+.sliding-btn > *:hover{
+    color: rgb(143, 8, 8) ;
+    transition: 200ms ease-in-out;
 }

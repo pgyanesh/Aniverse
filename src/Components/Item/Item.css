@@ -23,16 +23,22 @@
 } */
 .item-links{
     display: flex;
-
+    padding-top: 0.5vh;
 }
 
 .item-link button{
     width: 10svw;
     height: 5vh;
+    
     background-color: rgb(121, 14, 14);
     padding: 1vh 1vw;
     font-weight: 400;
     font-size: 0.8em;
     color: antiquewhite;
     border-radius: 5%;
+}
+.item-link button:hover{
+    border: 2px solid  rgb(85, 54, 54);
+    cursor: pointer;
+    transition: 100ms ease-in-out;
 }

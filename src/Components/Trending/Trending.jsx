@@ -7,7 +7,7 @@ const Trending = () => {
   return (
     <div className='trending-container'>
       <div className="trending-heading">
-        <h2>Trending series</h2>
+        <h2>Trending</h2>
       </div>
       <div className="trending-content">
           {allShows.map((item)=>{

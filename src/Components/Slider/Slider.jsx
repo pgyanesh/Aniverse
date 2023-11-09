@@ -1,4 +1,4 @@
-import { SkipBackIcon, SkipForwardIcon } from 'lucide-react';
+import { ChevronLeft, ChevronRight} from 'lucide-react';
 import React, { useState } from 'react';
 import './Slider.css'
 const Slider = (props) => {
@@ -19,8 +19,8 @@ const Slider = (props) => {
     <div className='sliderImg-space'>
       <img src={props.imageURLs[imageIndex]} alt="error" />
       <div className="button-space">
-      <button className='sliding-btn' onClick={handleNextButton}><SkipForwardIcon/></button>
-      <button className='sliding-btn' onClick={handlePrevButton}><SkipBackIcon/></button>
+      <button className='sliding-btn' onClick={handleNextButton}><ChevronRight/></button>
+      <button className='sliding-btn' onClick={handlePrevButton}><ChevronLeft/></button>
      
       </div>
     </div>

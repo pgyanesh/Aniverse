@@ -5,9 +5,10 @@ import onepiecehero from '../../Assets/onepiecehero.jpg'
 import jjkhero from '../../Assets/jjkhero.jpg'
 import demonslayerhero from '../../Assets/demonslayerhero.jpg'
 import spyxfamilyhero from '../../Assets/spyxfamilyhero.jpg'
+import drstonehero from '../../Assets/drstonehero.jpg'
 import Slider from '../Slider/Slider'
 const Hero = () => {
-  const IMAGES=[onepiecehero, jjkhero , spyxfamilyhero , demonslayerhero]
+  const IMAGES=[drstonehero, onepiecehero, jjkhero , spyxfamilyhero , demonslayerhero]
    
   
  

@@ -3,7 +3,7 @@ import jjk from '../Assets/jjk.png'
 import aot from '../Assets/aot.jpg'
 import spyxfamily from '../Assets/spyxfamily.jpg'
 import ognaruto from '../Assets/ognaruto.jpg'
-
+import chainsawman from '../Assets/chainsawman.jpg'
 
 let allShows = [{
    id:1,
@@ -55,6 +55,17 @@ let allShows = [{
     image:ognaruto,
     link1:"https://aniwatch.to/watch/naruto-677?ep=12352",
    link2:"https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece"
+},
+
+{
+   id:14,
+    title:"Chainsaw Man",
+    description:"Denji is robbed of a normal teenage life, left with nothing but his deadbeat father's overwhelming debt. His only companion is his pet, the chainsaw devil Pochita, with whom he slays devils for money that inevitably ends up in the yakuza's pockets. All Denji can do is dream of a good, simple life: one with delicious food and a beautiful girlfriend by his side. But an act of greedy betrayal by the yakuza leads to Denji's brutal, untimely death, crushing all hope of him ever achieving happiness. Remarkably, an old contract allows Pochita to merge with the deceased Denji and bestow devil powers on him, changing him into a hybrid able to transform his body parts into chainsaws. Because Denji's new abilities pose a significant risk to society, the Public Safety Bureau's elite devil hunter Makima takes him in, letting him live as long as he obeys her command. Guided by the promise of a content life alongside an attractive woman, Denji devotes everything and fights with all his might to make his naive dreams a reality.",
+    category:"series",
+    rating:4.2,
+    image:chainsawman,
+    link1:"https://aniwatch.to/chainsaw-man-17406",
+    link2:""
 }
 ]
 
