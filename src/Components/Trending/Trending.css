@@ -23,3 +23,15 @@
     gap: 2vw;
     padding-top: 2vh;
 }
+
+@media (max-width:600px) {
+    .trending-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .trending-content{
+        display:block;
+        
+    }
+}
